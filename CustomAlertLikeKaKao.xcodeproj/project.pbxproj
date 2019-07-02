@@ -12,6 +12,8 @@
 		7384B29622CB592700DD04D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7384B29422CB592700DD04D9 /* Main.storyboard */; };
 		7384B29822CB592800DD04D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7384B29722CB592800DD04D9 /* Assets.xcassets */; };
 		7384B29B22CB592800DD04D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7384B29922CB592800DD04D9 /* LaunchScreen.storyboard */; };
+		7384B2A622CB594100DD04D9 /* CustomAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7384B2A422CB594100DD04D9 /* CustomAlertViewController.xib */; };
+		7384B2A822CB5BEF00DD04D9 /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7384B2A722CB5BEF00DD04D9 /* CustomAlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7384B29722CB592800DD04D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7384B29A22CB592800DD04D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7384B29C22CB592800DD04D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7384B2A422CB594100DD04D9 /* CustomAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomAlertViewController.xib; sourceTree = "<group>"; };
+		7384B2A722CB5BEF00DD04D9 /* CustomAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		7384B28F22CB592700DD04D9 /* CustomAlertLikeKaKao */ = {
 			isa = PBXGroup;
 			children = (
+				7384B2A222CB594100DD04D9 /* CustomAlertView */,
 				7384B29022CB592700DD04D9 /* AppDelegate.swift */,
 				7384B29222CB592700DD04D9 /* ViewController.swift */,
 				7384B29422CB592700DD04D9 /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				7384B29C22CB592800DD04D9 /* Info.plist */,
 			);
 			path = CustomAlertLikeKaKao;
+			sourceTree = "<group>";
+		};
+		7384B2A222CB594100DD04D9 /* CustomAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				7384B2A722CB5BEF00DD04D9 /* CustomAlertViewController.swift */,
+				7384B2A422CB594100DD04D9 /* CustomAlertViewController.xib */,
+			);
+			path = CustomAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +139,7 @@
 				7384B29B22CB592800DD04D9 /* LaunchScreen.storyboard in Resources */,
 				7384B29822CB592800DD04D9 /* Assets.xcassets in Resources */,
 				7384B29622CB592700DD04D9 /* Main.storyboard in Resources */,
+				7384B2A622CB594100DD04D9 /* CustomAlertViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +152,7 @@
 			files = (
 				7384B29322CB592700DD04D9 /* ViewController.swift in Sources */,
 				7384B29122CB592700DD04D9 /* AppDelegate.swift in Sources */,
+				7384B2A822CB5BEF00DD04D9 /* CustomAlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
