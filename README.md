@@ -5,7 +5,7 @@ This repository is custom alert view like ```Kakao bank```.
 
 To use, just make ```CustomAlertViewController```'s instance
 
-(단지 ```CustomAlertViewController``` 의 인스턴스를 만들어 사용하세요.)
+(```CustomAlertViewController``` 의 인스턴스를 만들어 사용하세요.)
 
 ```swift
 
