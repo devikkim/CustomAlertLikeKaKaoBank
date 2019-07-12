@@ -78,14 +78,16 @@ class CustomAlertViewController: UIViewController {
   }
   
   @IBAction func touchRightButton(_ sender: UIButton) {
-    self.rightButtonAction?()
-    self.dismiss(animated: false, completion: nil)
+    self.dismiss(animated: false) {
+      self.rightButtonAction?()
+    }
   }
   
   
   @IBAction func touchLeftButton(_ sender: UIButton) {
-    self.leftButtonAction?()
-    self.dismiss(animated: false, completion: nil)
+    self.dismiss(animated: false) {
+      self.leftButtonAction?() 
+    }
   }
   
 }
